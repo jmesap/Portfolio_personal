@@ -36,8 +36,8 @@ export default function ContactSection() {
     },
     {
       key: 'github',
-      value: 'github.com/tuUsuario', // Cambia "tuUsuario" por tu usuario real
-      href: 'https://tuUsuario.github.io', // Tu GitHub Pages
+      value: 'github.com/jmesap',
+      href: 'https://github.com/jmesap',
       icon: <FaGithub className={iconStyle} />,
     },
   ];

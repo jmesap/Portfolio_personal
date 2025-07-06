@@ -30,7 +30,7 @@ export default function Footer() {
               <FaLinkedin size={24} />
             </a>
             <a
-              href="https://github.com/tuUsuario" // Cambia "tuUsuario" por tu usuario real
+              href="https://github.com/jmesap"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
