@@ -4,7 +4,7 @@ const path = require('path');
 const nextConfig = {
   distDir: process.env.NEXT_DIST_DIR || '.next',
   output: 'export',
-  assetPrefix: './',  // Correcto para sitio en la raíz
+  assetPrefix: '/',  // Correcto para sitio en la raíz
   basePath: '',      // Asegúrate que basePath esté vacío para evitar prefijos extra
   experimental: {
     outputFileTracingRoot: path.join(__dirname, '../'),
