@@ -1,4 +1,3 @@
-
 'use client';
 
 import { motion } from 'framer-motion';
@@ -16,7 +15,10 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F9FAFB] to-white relative overflow-hidden">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F9FAFB] to-white relative overflow-hidden pt-16 md:pt-20"
+    >
       {/* Geometric Background Elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-20 h-20 border-2 border-[#FFB600]/20 rotate-45 transform"></div>
@@ -24,7 +26,7 @@ export default function HeroSection() {
         <div className="absolute bottom-40 left-20 w-24 h-24 border-2 border-[#FFB600]/30 rotate-45 transform"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-3xl md:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <motion.div
@@ -41,7 +43,7 @@ export default function HeroSection() {
             >
               {t('heroTitle')}
             </motion.h1>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -50,7 +52,7 @@ export default function HeroSection() {
             >
               {t('heroSubtitle')}
             </motion.div>
-            
+
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -59,7 +61,7 @@ export default function HeroSection() {
             >
               {t('heroDescription')}
             </motion.p>
-            
+
             <motion.button
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -80,7 +82,7 @@ export default function HeroSection() {
           >
             <div className="relative group">
               {/* Hexagonal Frame */}
-              <div className="relative w-80 h-80 transform rotate-45 overflow-hidden">
+              <div className="relative w-48 h-48 md:w-80 md:h-80 transform rotate-45 overflow-hidden mx-auto md:mx-0">
                 <div className="absolute inset-0 border-4 border-[#FFB600] rounded-3xl transform -rotate-45 group-hover:border-[#E5A400] transition-all duration-300"></div>
                 <div className="absolute inset-4 overflow-hidden rounded-3xl transform -rotate-45">
                   <div className="relative w-full h-full">
@@ -94,7 +96,7 @@ export default function HeroSection() {
                   </div>
                 </div>
               </div>
-              
+
               {/* Hover Effect */}
               <div className="absolute inset-0 bg-[#FFB600]/0 group-hover:bg-[#FFB600]/10 transition-all duration-300 rounded-3xl"></div>
             </div>
