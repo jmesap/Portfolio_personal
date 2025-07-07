@@ -34,7 +34,12 @@ export default function ContactSection() {
       href: 'https://linkedin.com/in/jmesap',
       icon: <FaLinkedin className={iconStyle} />,
     },
-   
+    {
+      key: 'github',
+      value: 'github.com/jmesap',
+      href: 'https://github.com/jmesap',
+      icon: <FaGithub className={iconStyle} />,
+    },
   ];
 
   const containerVariants = {
@@ -136,14 +141,6 @@ export default function ContactSection() {
                 className="bg-[#282D27] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#1a1e1a] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 LinkedIn
-              </a>
-              <a
-                href="https://tuUsuario.github.io"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#333] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#24292e] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-              >
-                GitHub Pages
               </a>
             </div>
           </div>
