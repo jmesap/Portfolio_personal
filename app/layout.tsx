@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: 'José Mesa Padilla Portfolio',
     images: [
       {
-        url: 'https://josemesa.dev/jose-mesa-photo.jpeg',
+        url: 'https://josemesa.dev/foto_jm_logo.png',
         width: 1200,
         height: 630,
         alt: 'José Mesa Padilla - Software Developer',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: 'José Mesa Padilla - Software Developer | Technical Translator',
     description:
       'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
-    images: ['https://josemesa.dev/jose-mesa-photo.jpeg'],
+    images: ['https://josemesa.dev/foto_jm_logo.png'],
   },
 };
 
@@ -64,7 +64,7 @@ export default function RootLayout({
       <Head>
         <link
           rel="icon"
-          href="/favicon_jm.png"
+          href="https://josemesa.dev/favicon_jm.png"
           type="image/png"
           sizes="32x32"
         />
