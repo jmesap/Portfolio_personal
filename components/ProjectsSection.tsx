@@ -62,13 +62,14 @@ export default function ProjectsSection() {
         en: "Mobile App for Burger Restaurant"
       },
       description: {
-        es: "Desarrollo de aplicación móvil para una hamburguesería, facilitando pedidos y promociones.",
-        en: "Mobile app development for a burger restaurant, enabling orders and promotions."
+        es: "Aplicación Android nativa en Java para una hamburguesería, que permite gestionar pedidos, navegación por secciones y acceso a ayuda y acerca de.",
+        en: "Native Android app in Java for a burger restaurant, enabling order management, section navigation, and access to help and about pages."
       },
-      technologies: ['React Native', 'JavaScript', 'Firebase'],
+      technologies: ['Android', 'Java', 'Navigation Component', 'View Binding'],
       status: 'completed',
       icon: '🍔',
-      customLogo: null
+      customLogo: null,
+      link: 'https://github.com/jmesap/Hamburgueseria_apk_android'
     },
     {
       title: {
