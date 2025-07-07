@@ -38,21 +38,21 @@ const translations = {
     
     // Experience Section
     experienceTitle: 'Experiencia Profesional',
-    currentRole: 'Desarrollador de Software',
+    currentRole: 'Desarrollador de Software (Prácticas)',
     currentCompany: 'Instituto Maimónides de Investigación Biomédica de Córdoba (IMIBIC)',
     currentPeriod: '2024 - 2025',
-    currentDescription: 'Llevando a cabo la implementación de ERP Odoo para instituto de investigación biomédica. Desarrollando módulos personalizados en Python para flujos de trabajo de investigación especializados.',
+    currentDescription: 'Implementación y personalización del sistema ERP Odoo para optimizar procesos internos del instituto de investigación biomédica. Desarrollo de módulos personalizados en Python para el control de inventario mediante códigos QR, gestión administrativa de tarjetas corporativas y alta de nuevos empleados entre otros flujos de trabajo especializados.',
     
-    previousRole: 'Especialista Técnico',
-    previousCompany: 'Interasmundo - Servicios Internacionales',
+    previousRole: 'Relaciones Internacionales y SEO',
+    previousCompany: 'Interasmundo',
     previousPeriod: '2017 - 2021',
-    previousDescription: 'Gestión de creación de contenido técnico y traducción para mercados internacionales. Implementación de estrategias SEO para sitios web multilingües.',
-    
+    previousDescription: 'Creación, traducción y localización de contenido técnico. Gestión de SEO para sitios web multilingües. Asesoramiento técnico en migración de ERP y coordinación con desarrollo de software a medida para optimizar sistemas internos.',
+
     adminRole: 'Ordenanza',
     adminCompany: 'Diputación de Córdoba',
     adminPeriod: '2021 - 2025',
-    adminDescription: 'Traslado de documentación oficial y gestión de envíos. Control de accesos y comunicación con el ciudadano.',
-    
+    adminDescription: 'Gestión y traslado de documentación oficial, control de accesos y atención al público como personal de museo, comunicándome con visitantes en varios idiomas.',
+
     // Projects Section
     projectsTitle: 'Proyectos Destacados',
     projectsSubtitle: 'Desarrollo de software y soluciones técnicas',
@@ -104,21 +104,21 @@ const translations = {
     
     // Experience Section
     experienceTitle: 'Professional Experience',
-    currentRole: 'Software Developer',
+    currentRole: 'Software Developer (Internship)',
     currentCompany: 'Instituto Maimónides de Investigación Biomédica de Córdoba (IMIBIC)',
     currentPeriod: '2024 - 2025',
-    currentDescription: 'Leading Odoo ERP implementation for biomedical research institute. Developing custom Python modules for specialized research workflows.',
+    currentDescription: 'Implementation and customization of the Odoo ERP system to optimize internal processes at the biomedical research institute. Development of custom Python modules for inventory control using QR codes, administrative management of corporate cards, and onboarding of new employees, among other specialized workflows.',
     
     previousRole: 'Technical Specialist',
-    previousCompany: 'Interasmundo - International Services',
+    previousCompany: 'Interasmundo',
     previousPeriod: '2017 - 2021',
-    previousDescription: 'Managed technical content creation and translation for international markets. Implemented SEO strategies for multilingual websites.',
+    previousDescription: 'Creation, translation, and localization of technical content. SEO management for multilingual websites. Technical consulting on ERP migration and coordination with custom software development to optimize internal systems.',
     
-    adminRole: 'Administrative',
+    adminRole: 'Subordinate',
     adminCompany: 'Diputación de Córdoba',
     adminPeriod: '2021 - 2025',
-    adminDescription: 'Document management and administrative coordination. Security and access control systems.',
-    
+    adminDescription: 'Handled official document transfers, access control, and public assistance as museum staff, communicating with visitors in multiple languages.',
+
     // Projects Section
     projectsTitle: 'Featured Projects',
     projectsSubtitle: 'Software development and technical solutions',
