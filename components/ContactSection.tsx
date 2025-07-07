@@ -34,12 +34,7 @@ export default function ContactSection() {
       href: 'https://linkedin.com/in/jmesap',
       icon: <FaLinkedin className={iconStyle} />,
     },
-    {
-      key: 'github',
-      value: 'github.com/jmesap',
-      href: 'https://github.com/jmesap',
-      icon: <FaGithub className={iconStyle} />,
-    },
+   
   ];
 
   const containerVariants = {
