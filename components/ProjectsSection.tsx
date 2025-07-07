@@ -206,13 +206,8 @@ export default function ProjectsSection() {
 
               {/* Enlace al repositorio */}
               {project.link && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-2 text-[#FFB600] font-semibold hover:underline"
-                >
-                  {language === 'es' ? 'Ver repositorio en GitHub' : 'View GitHub Repository'}
+                <a href="https://github.com/jmesap/Hamburgueseria_apk_android" target="_blank" rel="noopener noreferrer">
+                  Ver repositorio en GitHub
                 </a>
               )}
 
