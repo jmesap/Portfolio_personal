@@ -33,13 +33,14 @@ export default function ProjectsSection() {
         en: "Personal ERP System - Comprehensive Management"
       },
       description: {
-        es: "ERP completo con arquitectura MVC para gestión de clientes, proyectos, presupuestos y facturación. Especializado en proyectos de desarrollo y traducción con generación automática de PDFs profesionales.",
-        en: "Complete ERP with MVC architecture for client, project, budget and billing management. Specialized in development and translation projects with automatic professional PDF generation."
+        es: "Sistema ERP desarrollado en Java con arquitectura MVC para la gestión integral de clientes, facturas, proyectos, presupuestos e informes. Incluye interfaz gráfica Swing, conexión a base de datos MySQL y generación automática de documentos PDF.",
+        en: "ERP system developed in Java with MVC architecture for comprehensive management of clients, invoices, projects, budgets, and reports. Includes Swing graphical interface, MySQL database connection, and automatic PDF document generation."
       },
-      technologies: ['Java 17', 'Swing', 'MySQL', 'Apache PDFBox', 'FlatLaf'],
+      technologies: ['Java', 'Swing', 'MySQL', 'Apache PDFBox', 'FlatLaf'],
       status: 'completed',
       icon: '💼',
-      customLogo: null
+      customLogo: null,
+      link: 'https://github.com/jmesap/erp_personal'
     },
     // Nuevos proyectos añadidos:
     {
@@ -77,13 +78,14 @@ export default function ProjectsSection() {
         en: "Java Desktop Program Using Hibernate"
       },
       description: {
-        es: "Desarrollo de programa de escritorio en Java utilizando Hibernate para la gestión de base de datos.",
-        en: "Development of a Java desktop program using Hibernate for database management."
+        es: "Desarrollo de programa de escritorio en Java utilizando Hibernate para la gestión de base de datos. El sistema gestiona empleados, departamentos, proyectos y sus relaciones, con una interfaz gráfica basada en Swing.",
+        en: "Development of a Java desktop program using Hibernate for database management. The system manages employees, departments, projects, and their relationships, with a Swing-based graphical user interface."
       },
       technologies: ['Java', 'Hibernate', 'Swing'],
       status: 'completed',
       icon: '🖥️',
-      customLogo: null
+      customLogo: null,
+      link: 'https://github.com/jmesap/programa_java_hibernate'
     },
     {
       title: {
