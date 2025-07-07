@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { LanguageProvider } from '../contexts/LanguageContext';
-import Head from 'next/head';
+import JsonLd from '../components/JsonLd';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -52,6 +52,9 @@ export const metadata: Metadata = {
       'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
     images: ['https://josemesa.dev/foto_jm_logo.png'],
   },
+  icons: {
+    icon: '/favicon_jm.png',
+  },
 };
 
 export default function RootLayout({
@@ -61,37 +64,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className="scroll-smooth">
-      <Head>
-        <link
-          rel="icon"
-          href="/favicon_jm.png"
-          type="image/png"
-          sizes="32x32"
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Person',
-              name: 'José Mesa Padilla',
-              jobTitle: 'Software Developer | Technical Translator',
-              url: 'https://josemesa.dev',
-              sameAs: [
-                'https://linkedin.com/in/jmesap',
-                'https://github.com/jmesap',
-              ],
-              address: {
-                '@type': 'PostalAddress',
-                addressLocality: 'Córdoba',
-                addressCountry: 'España',
-              },
-            }),
-          }}
-        />
-      </Head>
       <body className={inter.className}>
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          <JsonLd />
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );
