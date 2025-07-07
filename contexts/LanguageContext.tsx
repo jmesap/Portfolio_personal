@@ -25,7 +25,7 @@ const translations = {
     // Hero Section
     heroTitle: 'José Mesa Padilla',
     heroSubtitle: 'Desarrollador de Software | Traductor Técnico',
-    heroDescription: 'Desarrollador versátil y traductor técnico con sede en Córdoba, España. Combino experiencia técnica en desarrollo de software con sólidas capacidades lingüísticas, posicionándome de manera única para proyectos tecnológicos internacionales.',
+    heroDescription: 'Desarrollador de software y traductor técnico especializado en la integración de soluciones tecnológicas y comunicación multilingüe. Combino habilidades técnicas avanzadas en desarrollo de software, especialmente en sistemas ERP y programación, con experiencia en traducción y localización para mercados internacionales, aportando un enfoque integral y adaptado a proyectos tecnológicos globales.',
     contactMe: 'Contáctame',
     
     // About Section
@@ -91,7 +91,7 @@ const translations = {
     // Hero Section
     heroTitle: 'José Mesa Padilla',
     heroSubtitle: 'Software Developer | Technical Translator',
-    heroDescription: 'Versatile software developer and technical translator based in Córdoba, Spain. I combine technical expertise in software development with strong linguistic capabilities, uniquely positioning myself for international technology projects.',
+    heroDescription: 'Software developer and technical translator specializing in integrating technological solutions with multilingual communication. I combine advanced software development skills, particularly in ERP systems and programming, with experience in translation and localization for international markets, delivering a comprehensive approach tailored to global tech projects.',
     contactMe: 'Contact Me',
     
     // About Section
