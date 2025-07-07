@@ -206,13 +206,22 @@ export default function ProjectsSection() {
 
               {/* Enlace al repositorio */}
               {project.link && (
-                <a href="https://github.com/jmesap/Hamburgueseria_apk_android" target="_blank" rel="noopener noreferrer">
-                  Ver repositorio en GitHub
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 text-[#FFB600] font-semibold hover:underline"
+                >
+                  {language === 'es' ? 'Ver repositorio en GitHub' : 'View GitHub Repository'}
                 </a>
               )}
 
               {/* Hover Effect Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-r from-[#FFB600]/0 to-[#FFB600]/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div
+                className="absolute inset-0 bg-gradient-to-r from-[#FFB600]/0 to-[#FFB600]/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                style={{ pointerEvents: 'none' }}
+              ></div>
+
             </motion.div>
           ))}
         </motion.div>
