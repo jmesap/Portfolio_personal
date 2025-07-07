@@ -1,15 +1,17 @@
-
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { LanguageProvider } from '../contexts/LanguageContext';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'José Mesa Padilla - Software Developer | Technical Translator',
-  description: 'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
-  keywords: 'José Mesa Padilla, software developer, technical translator, Java, Python, Odoo, ERP, web development, Córdoba, Spain',
+  description:
+    'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
+  keywords:
+    'José Mesa Padilla, software developer, technical translator, Java, Python, Odoo, ERP, web development, Córdoba, Spain',
   authors: [{ name: 'José Mesa Padilla' }],
   creator: 'José Mesa Padilla',
   publisher: 'José Mesa Padilla',
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://jose-mesa-portfolio.vercel.app'),
+  metadataBase: new URL('https://josemesa.dev'),
   alternates: {
     canonical: '/',
     languages: {
@@ -28,12 +30,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'José Mesa Padilla - Software Developer | Technical Translator',
-    description: 'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
-    url: 'https://jose-mesa-portfolio.vercel.app',
+    description:
+      'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
+    url: 'https://josemesa.dev',
     siteName: 'José Mesa Padilla Portfolio',
     images: [
       {
-        url: '/jose-mesa-photo.jpeg',
+        url: 'https://josemesa.dev/jose-mesa-photo.jpeg',
         width: 1200,
         height: 630,
         alt: 'José Mesa Padilla - Software Developer',
@@ -45,8 +48,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'José Mesa Padilla - Software Developer | Technical Translator',
-    description: 'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
-    images: ['/jose-mesa-photo.jpeg'],
+    description:
+      'Portfolio profesional de José Mesa Padilla, desarrollador de software y traductor técnico especializado en sistemas ERP, Java, Python y desarrollo web.',
+    images: ['https://josemesa.dev/jose-mesa-photo.jpeg'],
   },
 };
 
@@ -57,10 +61,37 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className="scroll-smooth">
+      <Head>
+        <link
+          rel="icon"
+          href="/favicon_jm.png"
+          type="image/png"
+          sizes="32x32"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Person',
+              name: 'José Mesa Padilla',
+              jobTitle: 'Software Developer | Technical Translator',
+              url: 'https://josemesa.dev',
+              sameAs: [
+                'https://linkedin.com/in/jmesap',
+                'https://github.com/jmesap',
+              ],
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: 'Córdoba',
+                addressCountry: 'España',
+              },
+            }),
+          }}
+        />
+      </Head>
       <body className={inter.className}>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );
