@@ -204,6 +204,18 @@ export default function ProjectsSection() {
                 ))}
               </div>
 
+              {/* Enlace al repositorio */}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 text-[#FFB600] font-semibold hover:underline"
+                >
+                  {language === 'es' ? 'Ver repositorio en GitHub' : 'View GitHub Repository'}
+                </a>
+              )}
+
               {/* Hover Effect Overlay */}
               <div className="absolute inset-0 bg-gradient-to-r from-[#FFB600]/0 to-[#FFB600]/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </motion.div>
