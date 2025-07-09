@@ -43,19 +43,20 @@ export default function ProjectsSection() {
       link: 'https://github.com/jmesap/erp_personal'
     },
     // Nuevos proyectos añadidos:
-    {
+   {
       title: {
-        es: "Aplicación Android con Sensores",
-        en: "Android App Using Phone Sensors"
+        es: "Aplicación Android de Sensores Ambientales y Localización",
+        en: "Android App for Environmental Sensors and Location"
       },
       description: {
-        es: "Desarrollo de aplicación para Android que utiliza los sensores del teléfono para funcionalidades avanzadas.",
-        en: "Development of an Android application using phone sensors for advanced features."
+        es: "Aplicación Android en Java que muestra datos de sensores de temperatura y humedad, y la ubicación actual en Google Maps.",
+        en: "Android app in Java displaying temperature and humidity sensor data, and current location on Google Maps."
       },
-      technologies: ['Android', 'Java', 'Sensores'],
-      status: 'completed',
-      icon: '📱',
-      customLogo: null
+      technologies: ["Java", "Android SDK", "Google Maps API", "SensorManager", "View Binding"],
+      status: "completed",
+      icon: "📱",
+      customLogo: null,
+      link: 'https://github.com/jmesap/APP_android_sensores_localizacion'
     },
     {
       title: {
@@ -89,18 +90,19 @@ export default function ProjectsSection() {
     },
     {
       title: {
-        es: "Programa Java con CRUD",
-        en: "Java Program with CRUD"
+        es: "CRUD de Gestión de Países y Continentes en Java con MySQL",
+        en: "CRUD for Managing Countries and Continents in Java with MySQL"
       },
       description: {
-        es: "Desarrollo de un programa en Java que implementa operaciones CRUD completas.",
-        en: "Development of a Java program implementing full CRUD operations."
+        es: "Aplicación Java con interfaz Swing que implementa un sistema CRUD para gestionar países y continentes, con conexión a base de datos MySQL.",
+        en: "Java application with Swing interface implementing a CRUD system to manage countries and continents, connected to a MySQL database."
       },
-      technologies: ['Java', 'JDBC', 'MySQL'],
-      status: 'completed',
-      icon: '📝',
-      customLogo: null
-    }
+      technologies: ["Java", "JDBC", "MySQL", "Swing"],
+      status: "completed",
+      icon: "📝",
+      customLogo: null,
+      link: 'https://github.com/jmesap/CRUD_paises_continentes_java'
+    },
   ];
 
   const containerVariants = {
