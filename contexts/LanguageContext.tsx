@@ -43,7 +43,7 @@ const translations = {
     currentPeriod: '2024 - 2025',
     currentDescription: 'Implementación y personalización del sistema ERP Odoo para optimizar procesos internos del instituto de investigación biomédica. Desarrollo de módulos personalizados en Python para el control de inventario mediante códigos QR, gestión administrativa de tarjetas corporativas y alta de nuevos empleados entre otros flujos de trabajo especializados.',
     
-    previousRole: 'Relaciones Internacionales y SEO',
+    previousRole: 'Especialista Técnico',
     previousCompany: 'Interasmundo',
     previousPeriod: '2017 - 2021',
     previousDescription: 'Creación, traducción y localización de contenido técnico. Gestión de SEO para sitios web multilingües. Asesoramiento técnico en migración de ERP y coordinación con desarrollo de software a medida para optimizar sistemas internos.',
