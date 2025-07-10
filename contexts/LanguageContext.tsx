@@ -69,6 +69,7 @@ const translations = {
     phone: 'Teléfono',
     linkedin: 'LinkedIn',
     website: 'Sitio web',
+    downloadCV: 'Descargar CV',
     
     // Footer
     footerText: '© 2025 José Mesa Padilla. Todos los derechos reservados',
@@ -135,6 +136,7 @@ const translations = {
     phone: 'Phone',
     linkedin: 'LinkedIn',
     website: 'Website',
+    downloadCV: 'Download CV',
     
     // Footer
     footerText: '© 2025 José Mesa Padilla. All rights reserved.',
