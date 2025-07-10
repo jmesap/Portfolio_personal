@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function ContactSection() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -141,6 +141,13 @@ export default function ContactSection() {
                 className="bg-[#282D27] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#1a1e1a] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 LinkedIn
+              </a>
+              <a
+                href={language === 'es' ? '/CV-espanol-jmesap.pdf' : '/CV-english-jmesap.pdf'}
+                download
+                className="bg-[#282D27] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#1a1e1a] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              >
+                {t('downloadCV')}
               </a>
             </div>
           </div>
