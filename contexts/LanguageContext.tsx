@@ -37,6 +37,7 @@ const translations = {
     skillsSubtitle: 'Lenguajes de programación y tecnologías',
     
     // Learning Section
+    learningTitle: 'Me interesa...',
     learningSubtitle: 'Tecnologías y frameworks que estoy explorando actualmente',
 
     // Experience Section
@@ -113,8 +114,9 @@ const translations = {
     skillsSubtitle: 'Programming languages and technologies',
 
     // Learning Section
+    learningTitle: 'I am interested in...',
     learningSubtitle: 'Technologies and frameworks I am currently exploring',
-
+    
     // Experience Section
     experienceTitle: 'Professional Experience',
     currentRole: 'Software Developer (Internship)',
