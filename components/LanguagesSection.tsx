@@ -12,7 +12,8 @@ export default function LanguagesSection() {
   });
 
   const languages = [
-    { key: 'spanish', level: 'native' },
+    { key: 'spanish', 
+      level: 'native' },
     {
       key: 'english',
       level: 'c1',
@@ -71,13 +72,7 @@ export default function LanguagesSection() {
                 {t(key)}{' '}
                 <span className="text-[#FFB600]">({t(level)})</span>
               </h3>
-              {accreditedBy ? (
-                <p className="text-base text-[#646566] mt-2">
-                  {t('accreditedBy')}: <br /> {accreditedBy}
-                </p>
-              ) : (
-                <p className="text-base text-[#646566] mt-2 italic">Nativo</p>
-              )}
+
             </motion.div>
           ))}
         </motion.div>
