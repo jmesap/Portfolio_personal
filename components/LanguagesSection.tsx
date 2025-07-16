@@ -74,10 +74,10 @@ export default function LanguagesSection() {
               </h3>
               {accreditedBy ? (
                 <p className="text-base text-[#646566] mt-2">
-                  {t('accreditedBy')}: <br /> {accreditedBy}
+                  {t('accreditedBy')}: <br /> {t(accreditedBy)}
                 </p>
               ) : (
-                <p className="text-base text-[#646566] mt-2 italic">{t('native')}</p>
+                <p className="text-base text-[#646566] mt-2 italic"></p> 
               )}
             </motion.div>
           ))}
