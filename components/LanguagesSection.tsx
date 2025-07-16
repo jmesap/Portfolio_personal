@@ -46,9 +46,7 @@ export default function LanguagesSection() {
           <h2 className="text-4xl font-extrabold text-[#282D27] mb-4">
             {t('languages')}
           </h2>
-          <h3 className="text-xl font-medium text-[#646566] max-w-3xl mx-auto">
-            {t('languagesSubtitle') || defaultSubtitle}
-          </h3>
+
         </motion.div>
 
         <motion.div
