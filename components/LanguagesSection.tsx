@@ -77,7 +77,7 @@ export default function LanguagesSection() {
                   {t('accreditedBy')}: <br /> {accreditedBy}
                 </p>
               ) : (
-                <p className="text-base text-[#646566] mt-2 italic"></p>
+                <p className="text-base text-[#646566] mt-2 italic">{t('native')}</p>
               )}
             </motion.div>
           ))}
