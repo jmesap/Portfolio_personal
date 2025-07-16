@@ -88,6 +88,9 @@ const translations = {
     c1: 'C1',
     b1: 'B1',
     accreditedBy: 'Acreditado por',
+    officialSchool: 'Escuela Oficial de Idiomas de Córdoba',
+    euroinnova: 'Euroinnova Formación',
+    universityCordoba: 'Universidad de Córdoba',
   },
 
 
@@ -116,7 +119,7 @@ const translations = {
     // Learning Section
     learningTitle: 'I am interested in...',
     learningSubtitle: 'Technologies and frameworks I am currently exploring',
-    
+
     // Experience Section
     experienceTitle: 'Professional Experience',
     currentRole: 'Software Developer (Internship)',
@@ -166,6 +169,9 @@ const translations = {
     c1: 'C1',
     b1: 'B1',
     accreditedBy: 'Accredited by',
+    officialSchool: 'Official School of Languages',
+    euroinnova: 'Euroinnova Formación',
+    universityCordoba: 'University of Córdoba',
   },
 };
 

@@ -17,17 +17,17 @@ export default function LanguagesSection() {
     {
       key: 'english',
       level: 'c1',
-      accreditedBy: 'Escuela Oficial de Idiomas de Córdoba',
+      accreditedBy: 'officialSchool',
     },
     {
       key: 'french',
       level: 'c1',
-      accreditedBy: 'Euroinnova Formación',
+      accreditedBy: 'euroinnova',
     },
     {
       key: 'german',
       level: 'b1',
-      accreditedBy: 'Universidad de Córdoba',
+      accreditedBy: 'universityCordoba',
     },
   ];
 
