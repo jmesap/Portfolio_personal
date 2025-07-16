@@ -16,6 +16,7 @@ export default function LearningSection() {
     { name: 'Springboot', icon: '🌱', color: '#6db33f' },
     { name: 'React', icon: '⚛️', color: '#61dafb' },
     { name: 'JavaScript', icon: '🟨', color: '#f7df1e' },
+    { name: 'Git', icon: '🐙', color: '#f7df1e' },
   ];
 
   const containerVariants = {
