@@ -12,16 +12,12 @@ export default function SkillsSection() {
     threshold: 0.1,
   });
 
-  const skills = [
-    { name: 'Java', icon: '☕', color: '#f89820' },
-    { name: 'Python', icon: '🐍', color: '#3776ab' },
-    { name: 'SQL', icon: '🗃️', color: '#336791' },
-    { name: 'JavaScript', icon: '⚡', color: '#f7df1e' },
-    { name: 'HTML', icon: '🌐', color: '#e34c26' },
-    { name: 'CSS', icon: '🎨', color: '#1572b6' },
-    { name: 'Odoo', icon: '⚙️', color: '#714b67' },
-    { name: 'Git', icon: '📝', color: '#f05032' },
-  ];
+const skills = [
+  { name: 'Java', icon: '☕', color: '#f89820' },
+  { name: 'Swing', icon: '🖼️', color: '#6a4c93' },  // Icono y color sugeridos para Swing
+  { name: 'MySQL', icon: '🐬', color: '#00758f' },  // Icono de delfín (MySQL) y color oficial
+  { name: 'Odoo', icon: '⚙️', color: '#714b67' },
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },
