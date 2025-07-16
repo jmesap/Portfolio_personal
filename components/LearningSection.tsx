@@ -48,11 +48,11 @@ export default function LearningSection() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-extrabold text-gray-900 mb-3">
-            Estoy aprendiendo...
+            Me interesa...
           </h2>
-          <p className="text-gray-600 max-w-xl mx-auto">
+          <h3 className="text-gray-600 max-w-xl mx-auto">
             {t('learningSubtitle') || 'Tecnologías y frameworks que estoy explorando actualmente.'}
-          </p>
+          </h3>
         </motion.div>
 
         <motion.div
