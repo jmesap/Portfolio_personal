@@ -12,19 +12,20 @@ export default function LanguagesSection() {
   });
 
   const languages = [
+    { key: 'spanish', level: 'native', accreditedBy: '' },
     {
       key: 'english',
-      level: 'C1',
+      level: 'c1',
       accreditedBy: 'Escuela Oficial de Idiomas de Córdoba',
     },
     {
       key: 'french',
-      level: 'C1',
+      level: 'c1',
       accreditedBy: 'Euroinnova Formación',
     },
     {
       key: 'german',
-      level: 'B1',
+      level: 'b1',
       accreditedBy: 'Universidad de Córdoba',
     },
   ];
@@ -66,9 +67,16 @@ export default function LanguagesSection() {
               className="bg-white rounded-xl shadow-md p-8 flex flex-col items-center text-center"
             >
               <h3 className="text-2xl font-semibold text-[#282D27] mb-2">
-                {t(key)} <span className="text-[#FFB600]">({level})</span>
+                {t(key)}{' '}
+                <span className="text-[#FFB600]">
+                  ({t(level)})
+                </span>
               </h3>
-              <p className="text-sm text-[#646566] mt-1">{accreditedBy}</p>
+              {accreditedBy && (
+                <p className="text-sm text-[#646566] mt-1">
+                  {t('accreditedBy')}: {accreditedBy}
+                </p>
+              )}
             </motion.div>
           ))}
         </motion.div>

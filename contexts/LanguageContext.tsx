@@ -79,11 +79,17 @@ const translations = {
     
     // Languages
     languages: 'Idiomas',
-    spanish: 'Español (Nativo)',
-    english: 'Inglés (C1)',
-    french: 'Francés (C1)',
-    german: 'Alemán (B1)',
+    spanish: 'Español',
+    english: 'Inglés',
+    french: 'Francés',
+    german: 'Alemán',
+    native: 'Nativo',
+    c1: 'C1',
+    b1: 'B1',
+    accreditedBy: 'Acreditado por',
   },
+
+
   en: {
     // Navigation
     home: 'Home',
@@ -150,10 +156,14 @@ const translations = {
     
     // Languages
     languages: 'Languages',
-    spanish: 'Spanish (Native)',
-    english: 'English (C1)',
-    french: 'French (C1)',
-    german: 'German (B1)',
+    spanish: 'Spanish',
+    english: 'English',
+    french: 'French',
+    german: 'German',
+    native: 'Native',
+    c1: 'C1',
+    b1: 'B1',
+    accreditedBy: 'Accredited by',
   },
 };
 

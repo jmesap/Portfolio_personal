@@ -85,35 +85,6 @@ const skills = [
             </motion.div>
           ))}
         </motion.div>
-
-        {/* Languages Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-16 text-center"
-        >
-          <h3 className="text-2xl font-bold text-[#282D27] mb-6">
-            {t('languages')}
-          </h3>
-          <div className="flex flex-wrap justify-center gap-4">
-            {[
-              { key: 'spanish', level: 'Native' },
-              { key: 'english', level: 'C1' },
-              { key: 'french', level: 'C1' },
-              { key: 'german', level: 'B1' },
-            ].map((lang) => (
-              <div
-                key={lang.key}
-                className="bg-[#F9FAFB] px-4 py-2 rounded-full border border-[#646566]/20 hover:border-[#FFB600] transition-all duration-300"
-              >
-                <span className="text-[#282D27] font-medium">
-                  {t(lang.key)}
-                </span>
-              </div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );
