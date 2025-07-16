@@ -37,7 +37,7 @@ const translations = {
     skillsSubtitle: 'Lenguajes de programación y tecnologías',
     
     // Learning Section
-    learningSubtitle: 'Tecnologías y frameworks que estoy explorando actualmente.',
+    learningSubtitle: 'Tecnologías y frameworks que estoy explorando actualmente',
 
     // Experience Section
     experienceTitle: 'Experiencia Profesional',
@@ -113,7 +113,7 @@ const translations = {
     skillsSubtitle: 'Programming languages and technologies',
 
     // Learning Section
-    learningSubtitle: 'Technologies and frameworks I am currently exploring.',
+    learningSubtitle: 'Technologies and frameworks I am currently exploring',
 
     // Experience Section
     experienceTitle: 'Professional Experience',

@@ -12,7 +12,7 @@ export default function LanguagesSection() {
   });
 
   const languages = [
-    { key: 'spanish', level: 'native', accreditedBy: '' },
+    { key: 'spanish', level: 'native' },
     {
       key: 'english',
       level: 'c1',
@@ -30,6 +30,9 @@ export default function LanguagesSection() {
     },
   ];
 
+  const defaultSubtitle =
+    'Muestra tus habilidades lingüísticas y quién las acredita.';
+
   return (
     <section id="languages" className="py-24 bg-[#f5f5f7]">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-0">
@@ -44,7 +47,7 @@ export default function LanguagesSection() {
             {t('languages')}
           </h2>
           <h3 className="text-xl font-medium text-[#646566] max-w-3xl mx-auto">
-            {t('languagesSubtitle') || 'Muestra tus habilidades lingüísticas y quién las acredita.'}
+            {t('languagesSubtitle') || defaultSubtitle}
           </h3>
         </motion.div>
 
@@ -68,9 +71,7 @@ export default function LanguagesSection() {
             >
               <h3 className="text-3xl font-bold text-[#282D27] mb-3">
                 {t(key)}{' '}
-                <span className="text-[#FFB600]">
-                  ({t(level)})
-                </span>
+                <span className="text-[#FFB600]">({t(level)})</span>
               </h3>
               {accreditedBy ? (
                 <p className="text-base text-[#646566] mt-2">
