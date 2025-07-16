@@ -25,7 +25,7 @@ const translations = {
     // Hero Section
     heroTitle: 'José Mesa Padilla',
     heroSubtitle: 'Desarrollador de Software | Traductor Técnico',
-    heroDescription: 'Desarrollador de software y traductor técnico especializado en la integración de soluciones tecnológicas y comunicación multilingüe. Combino habilidades técnicas avanzadas en desarrollo de software, especialmente en sistemas ERP y programación, con experiencia en traducción y localización para mercados internacionales, aportando un enfoque integral y adaptado a proyectos tecnológicos globales.',
+    heroDescription: 'Conecto código y palabras para crear soluciones que hablan todos los idiomas. Transformo ideas en experiencias digitales que comunican y conectan sin barreras',
     contactMe: 'Contáctame',
     
     // About Section
@@ -101,7 +101,7 @@ const translations = {
     // Hero Section
     heroTitle: 'José Mesa Padilla',
     heroSubtitle: 'Software Developer | Technical Translator',
-    heroDescription: 'Software developer and technical translator specializing in integrating technological solutions with multilingual communication. I combine advanced software development skills, particularly in ERP systems and programming, with experience in translation and localization for international markets, delivering a comprehensive approach tailored to global tech projects.',
+    heroDescription: 'I connect code and words to create solutions that speak every language. I transform ideas into digital experiences that communicate and connect without barriers',
     contactMe: 'Contact Me',
     
     // About Section
