@@ -43,9 +43,9 @@ export default function LanguagesSection() {
           <h2 className="text-4xl font-extrabold text-[#282D27] mb-4">
             {t('languages')}
           </h2>
-          <p className="text-lg text-[#646566] max-w-3xl mx-auto">
+          <h3 className="text-xl font-medium text-[#646566] max-w-3xl mx-auto">
             {t('languagesSubtitle') || 'Muestra tus habilidades lingüísticas y quién las acredita.'}
-          </p>
+          </h3>
         </motion.div>
 
         <motion.div
