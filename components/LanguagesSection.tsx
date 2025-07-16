@@ -12,8 +12,7 @@ export default function LanguagesSection() {
   });
 
   const languages = [
-    { key: 'spanish', 
-      level: 'native' },
+    { key: 'spanish', level: 'native' },
     {
       key: 'english',
       level: 'c1',
@@ -47,7 +46,6 @@ export default function LanguagesSection() {
           <h2 className="text-4xl font-extrabold text-[#282D27] mb-4">
             {t('languages')}
           </h2>
-
         </motion.div>
 
         <motion.div
@@ -74,10 +72,10 @@ export default function LanguagesSection() {
               </h3>
               {accreditedBy ? (
                 <p className="text-base text-[#646566] mt-2">
-                  {t('accreditedBy')}: <br /> {accreditedBy}
+                  {t('accreditedBy')}: <br /> {t(`institutions.${accreditedBy}`)}
                 </p>
               ) : (
-                <p className="text-base text-[#646566] mt-2 italic"></p>
+                <p className="text-base text-[#646566] mt-2 italic">{t('native')}</p>
               )}
             </motion.div>
           ))}

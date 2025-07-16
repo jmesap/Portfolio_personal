@@ -87,10 +87,11 @@ const translations = {
     native: 'Nativo',
     c1: 'C1',
     b1: 'B1',
-    accreditedBy: 'Acreditado por',
-    officialSchool: 'Escuela Oficial de Idiomas de Córdoba',
-    euroinnova: 'Euroinnova Formación',
-    universityCordoba: 'Universidad de Córdoba',
+    institutions: {
+      officialSchool: 'Escuela Oficial de Idiomas de Córdoba',
+      euroinnova: 'Euroinnova Formación',
+      universityCordoba: 'Universidad de Córdoba',
+    },
   },
 
 
@@ -169,9 +170,11 @@ const translations = {
     c1: 'C1',
     b1: 'B1',
     accreditedBy: 'Accredited by',
-    officialSchool: 'Official School of Languages',
-    euroinnova: 'Euroinnova Formación',
-    universityCordoba: 'University of Córdoba',
+    institutions: {
+      officialSchool: 'Official School of Languages',
+      euroinnova: 'Euroinnova Formación',
+      universityCordoba: 'University of Córdoba',
+    }
   },
 };
 
@@ -179,7 +182,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>('es');
 
   const t = (key: string): string => {
-    return translations[language][key as keyof typeof translations['es']] || key;
+    const value = translations[language][key as keyof typeof translations['es']];
+    return typeof value === 'string' ? value : key;
   };
 
   return (
